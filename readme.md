@@ -1,3 +1,13 @@
 # Aplicación de control físico.
 
-Prototipo
+# Arquitectura básica
+El stack de la aplicación es el siguiente:
+- Lenguaje Backend: Python
+- SQLite 3 (única soportada inicialmente por SSO)
+- FastApi
+- Vue
+
+# Despliegue DEV
+```.\RunDEV.ps1```
+
+Este comando levantará los servidores de prueba de Vite y Uvicorn, que sirven respectivamente el front(Vue) y el back(FastApi). 
