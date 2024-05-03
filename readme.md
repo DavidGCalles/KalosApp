@@ -3,7 +3,7 @@
 # Arquitectura básica
 El stack de la aplicación es el siguiente:
 - Lenguaje Backend: Python
-- SQLite 3 (única soportada inicialmente por SSO)
+- SQLAlchemy /SQLite3
 - FastApi
 - Vue
 
